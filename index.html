@@ -7,17 +7,64 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Resume Website</title>
   <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap" rel="stylesheet">
+
+
+
+  <style>
+    .navBar {
+      font-family: 'Quicksand', sans-serif;
+      font-size: 30px;
+      color: white;
+      text-shadow: 2px 2px #ff0000;
+    }
+
+    .normal {
+      font-family: 'Quicksand', sans-serif;
+    }
+
+  </style>
+
 </head>
 
-<body class = "bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500">
-  
+<body class="bg-gradient-to-l from-yellow-500 via-red-500 to-pink-500">
+
   <!-- NavBar -->
-  <div class = "bg-yellow-400 p-2 flex justify-center max-w-screen-md mx-auto">
-    <div class = "flex space-x-20">
-      <p>Home</p>
-      <p>Experience</p>
-      <p>Contact</p>
+  <div
+    class="my-10 bg-gradient-to-r from-red-800 via-yellow-500 to-blue-600 p-2 flex justify-center max-w-screen-md mx-auto rounded-full shadow-xl">
+    <div class="navBar text-shadow-md drop-shadow-xl flex space-x-20">
+      <a href="https://www.google.com" class="hover:text-black">Home</a>
+      <a href="https://www.google.com" class="hover:text-black">Experience</a>
+      <a href="https://www.google.com" class="hover:text-black">Contact</a>
     </div>
+  </div>
+
+  <!-- container -->
+  <div class="space-y-16 m-2">
+    <!-- short profile -->
+    <div class="bg-gradient-to-r from-yellow-200 to-yellow-500 p-3 max-w-screen-lg mx-auto shadow-lg rounded-xl">
+      <!-- header and description -->
+      <div class="flex space-x-3">
+        <img class="w-52 rounded-full" src="src/img/profile_pic.jpg">
+        <div class="flex-auto space-y-5">
+          <p class="m-3 normal font-semibold text-5xl">Pawaret Dilokwuttisit</p>
+          <div class="m-3 p-3 bg-yellow-100 rounded-xl">
+            <p style="text-indent:40px;" class="normal text-lg text-gray-500">Hello , My name is Pawaret Dilokwuttisit.
+              I graduated
+              from Chiang Mai University. Studied Computer Enginerring. I love programming. I'm interested in artificial
+              intelligence.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- skill -->
+    <center>
+      <p class="text-4xl normal">My Skills</p>
+    </center>
+
   </div>
 
 
