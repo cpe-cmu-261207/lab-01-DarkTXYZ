@@ -1,0 +1,39 @@
+.homeTitle {
+    color: white;
+    text-shadow: 4px 4px #ff0000;
+}
+
+.expTitle {
+    color: white;
+    text-shadow: 4px 4px #1946a8;
+}
+
+.navBar {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+.bgImg{
+    position : fixed;
+    right : 0px;
+    bottom: 0px; 
+    z-index: -1;
+}
+
+.bgImg2{
+    position : fixed;
+    left : 0px;
+    bottom: 0px; 
+    z-index: -1;
+}
+
+p {
+    text-align: justify;
+    text-indent: 40px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+    font-family: 'Quicksand', sans-serif;
+}
