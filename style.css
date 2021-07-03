@@ -22,14 +22,14 @@
 .bgImg{
     position : fixed;
     right : 0px;
-    bottom: 0px; 
+    bottom: -200px; 
     z-index: -1;
 }
 
 .bgImg2{
     position : fixed;
     left : 0px;
-    bottom: 0px; 
+    bottom: -150px; 
     z-index: -1;
 }
 
