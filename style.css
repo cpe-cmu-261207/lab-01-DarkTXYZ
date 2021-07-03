@@ -33,6 +33,23 @@
     z-index: -1;
 }
 
+.grow { 
+    transition: all .3s ease-out; 
+}
+
+.grow:hover { 
+    transform: scale(1.03); 
+}
+
+.growtab { 
+    transition: all .3s ease-out; 
+}
+
+.growtab:hover { 
+    transform: scale(1.1); 
+}
+
+
 p {
     text-align: justify;
     text-indent: 40px;
