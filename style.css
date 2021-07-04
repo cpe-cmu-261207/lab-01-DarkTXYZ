@@ -21,8 +21,9 @@
 
 .bgImg{
     position : fixed;
-    right : 0px;
-    bottom: -200px; 
+    top : 50%;
+    left : 50%;
+    transform: translate(0% , -50%);
     z-index: -1;
 }
 
